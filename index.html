@@ -1,46 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Travel Website</title>
-
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css" integrity="sha512-3j+NZaLEJpC22xx0amw5+GWu5rjK9X5B5hO8clI+uVjQ2t0zGt7Jw+L1m7rK5XhP5JmH5fzBZ7KQvxMxEh5nyw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-  <style>
-    /* Travel Gradient Background */
-    body {
-      background: linear-gradient(to bottom, #3f4c6b, #000814);
-    }
-  </style>
-</head>
-<body>
-  <!-- Navigation Bar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Travel Website</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-
-  <!-- Content -->
-  <div class="container">
-    <h1>Welcome to our Travel Website</h1>
-    <p>Plan your dream vacation with us!</p>
-  </div>
-
-  <!-- Bootstrap JS -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-Ls0BfOvAtytBEDlnOwYw2w6vAGzW1c8hZAKbH5QPTk3qjrIgdatL+kyLvFfjw7DpF1n5z8UNMn5y/XM5yjqMrA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.3/umd/popper.min.js" integrity="sha512-ggMyC+v8VH9ZMHhQ7SUvD3+riW8O57OyHjM7J/QSh3qNY6a8L9dGcZUzgzeTjl/UeKr+tG6U/vT6wQJppzjrqg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js" integrity="sha512-j/eKsdRdjjg
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Travel Website</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+      body {
+        background: linear-gradient(to bottom right, #1B2735, #99B2DD);
+        color: #333;
+        font-family: Arial, sans-serif;
+      }
+      .navbar {
+        background-color: #333;
+        color: #fff;
+      }
+      .navbar-brand {
+        font-size: 1.5rem;
+      }
+      .navbar-nav a {
+        color: #fff;
+        font-size: 1.2rem;
+      }
+      .jumbotron {
+        background-color: transparent;
+        color: #fff;
+        text-align: center;
+        margin-top: 2rem;
+      }
+      h1 {
+        font-size: 4rem;
+        font-weight: bold;
+      }
+      p {
+        font-size: 1.2rem;
+        line-height: 2rem;
+        margin-bottom: 2rem;
+      }
+      .btn-primary {
+        background-color: #fff;
+        border-color: #fff;
+        color: #333;
+        font-size: 1.2rem;
+        margin-top: 1rem;
+      }
+      .btn-primary:hover {
+        background-color: #333;
+        border-color: #333;
+        color: #fff;
+      }
+      .container {
+        margin-bottom: 2rem;
+      }
+      .footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 1rem;
+        margin-top: 2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">Travel Website</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Welcome to our Travel Website</h1>
+        <p>
+          We offer amazing travel experiences all around the world. Book your
+          next adventure now!
+        </p>
+        <a class="btn
